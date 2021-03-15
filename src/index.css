@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  margin: 2rem;
+  text-align: center;
+}
+
+h1 {
+  color: #07F;
+}
+
+.file-exists {
+  text-align: left;
+  color: red;
+}
+
+.drag-drop-zone {
+  padding: 2rem;
+  text-align: center;
+  background: #07F;
+  border-radius: 0.5rem;
+  box-shadow: 5px 5px 10px #C0C0C0;
+}
+
+.drag-drop-zone p {
+  color: #FFF;
+}
+
+.drag-drop-zone.inside-drag-area {
+  opacity: 0.7;
+}
+
+.dropped-files li {
+  color: #07F;
+  padding: 3px;
+  text-align: left;
+  font-weight: bold;
+}
